@@ -387,7 +387,7 @@ let newOdoSave = {
         _this.el.offsetHeight;
         return addClass(_this.el, 'odometer-animating');
       }, 0);
-      newOdoSave["values"].push(newValue);
+      if (newOdoOptions.saveValues) newOdoSave["values"].push(newValue);
       return this.value = newValue;
     };
 
