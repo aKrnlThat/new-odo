@@ -15,7 +15,7 @@ const newOdoApi = {
 }
 
 let newOdoSave = {
-  "values": [];
+  "values": []
 }
 
 (function() {
